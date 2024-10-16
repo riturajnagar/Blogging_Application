@@ -7,3 +7,4 @@ import com.rituraj.blog.models.User;
 public interface UserRepo extends JpaRepository<User, Integer>{
 
 }
+ 
