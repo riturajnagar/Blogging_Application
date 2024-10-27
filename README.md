@@ -30,20 +30,20 @@ It contained all the basic CRUD operation related to different entity.
 - Comment Module
 
 ## ER Diagram
-![img](https://github.com/riturajnagar/Blogging_Application/blob/main/BlogApplicationAPI/src/main/resources/templates/blogapperdiagram.png)
+![img](https://github.com/riturajnagar/Blogging_Application/blob/main/blog_application/src/main/resources/templates/blogapperdiagram.png)
 
 ## User Module :
 - user should create, update, delete and list posts
 - new user should able to register on our application
 
-![img](https://github.com/riturajnagar/Blogging_Application/blob/main/BlogApplicationAPI/src/main/resources/templates/UserController.png)
+![img](https://github.com/riturajnagar/Blogging_Application/blob/main/blog_application/src/main/resources/templates/UserController.png)
  
 ## Categories Module :
  - categories the posts according to categories
  - user can fetch one specific category or list of categories.
  - user can delete and update the category.
  
- ![img](https://github.com/riturajnagar/Blogging_Application/blob/main/BlogApplicationAPI/src/main/resources/templates/CategoryController.png)
+ ![img](https://github.com/riturajnagar/Blogging_Application/blob/main/blog_application/src/main/resources/templates/CategoryController.png)
  
  ## Post Module :
  - user can fetch posts using user Id or category Id or post Id
@@ -54,18 +54,18 @@ It contained all the basic CRUD operation related to different entity.
  - posts include one image too.
  - user can get the specific image also.
  
- ![img](https://github.com/riturajnagar/Blogging_Application/blob/main/BlogApplicationAPI/src/main/resources/templates/PostController.png)
+ ![img](https://github.com/riturajnagar/Blogging_Application/blob/main/blog_application/src/main/resources/templates/PostController.png)
  
  ## Comment Module :
  - user shoud add, update, delete comments on posts.
  
- ![img](https://github.com/riturajnagar/Blogging_Application/blob/main/BlogApplicationAPI/src/main/resources/templates/CommentController.png)
+ ![img](https://github.com/riturajnagar/Blogging_Application/blob/main/blog_application/src/main/resources/templates/CommentController.png)
  
  ## Architecture 
  
  Layered Architecture
 - Structure (Controller -> API Layere -> Service -> Business Logic -> Repositories -> DAO Layer (Data Access))
-![img](https://github.com/riturajnagar/Blogging_Application/blob/main/BlogApplicationAPI/src/main/resources/templates/layered%20Architecture.png)
+![img](https://github.com/riturajnagar/Blogging_Application/blob/main/blog_application/src/main/resources/templates/layered%20Architecture.png)
 
 User interaction layer:
 - This is the layer that interacts with users through screens, forms, menus, reports, etc.
